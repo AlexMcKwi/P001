@@ -1,0 +1,110 @@
+# ---------------------------
+# OS / Editor junk
+# ---------------------------
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.tmp
+
+# VS Code
+.vscode/
+.history/
+
+# PyCharm / IntelliJ
+.idea/
+
+# ---------------------------
+# Python (si applicable)
+# ---------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env/
+venv/
+.envrc
+
+# ---------------------------
+# Node.js (si applicable)
+# ---------------------------
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+dist/
+build/
+
+# ---------------------------
+# Java / Maven / Gradle (si applicable)
+# ---------------------------
+target/
+*.jar
+*.war
+*.ear
+.gradle/
+build/
+
+# ---------------------------
+# Docker
+# ---------------------------
+# Ignore local env files
+.env
+.env.*
+!env.example
+
+# Docker build artifacts
+docker-data/
+docker-volume/
+*.tar
+
+# ---------------------------
+# Kubernetes
+# ---------------------------
+# Local k8s configs or overrides
+k8s/generated/
+k8s/.kube/
+*.kubeconfig
+# ---------------------------
+# Values files (if you have secrets or local overrides)
+# ---------------------------
+values.yaml
+credentials.json
+
+# Helm
+charts/**/charts/
+charts/**/tmp/
+charts/**/values.yaml.bak
+helm-release.yaml
+
+# Kustomize
+kustomize/build/
+
+# ---------------------------
+# Logs
+# ---------------------------
+logs/
+*.log
+*.out
+*.err
+
+# ---------------------------
+# Secrets (NEVER commit)
+# ---------------------------
+secrets/
+*.secret
+*.key
+*.pem
+*.crt
+*.p12
+*.jks
+
+# ---------------------------
+# Databases / Storage
+# ---------------------------
+*.db
+*.sqlite
+*.sqlite3
+data/
+postgres-data/
+
